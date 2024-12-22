@@ -1,4 +1,4 @@
-# py-js
+# node-py
 
 Create a python wrapper in javascript.
 
@@ -10,7 +10,7 @@ Create a python wrapper in javascript.
 ## Usage
 
 ```js
-import { Py } from "py-js";
+import { Py } from "node-py";
 
 (async function () {
   // Crrent directory

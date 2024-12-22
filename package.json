@@ -1,12 +1,12 @@
 {
-  "name": "py-js",
+  "name": "node-py",
   "version": "1.0.0",
   "description": "Create a python wrapper in javascript.",
-  "main": "./dist/py.min.mjs",
+  "main": "./dist/node-py.min.mjs",
   "exports": {
     ".": {
-      "import": "./dist/py.min.cjs",
-      "require": "./dist/py.min.mjs"
+      "import": "./dist/node-py.min.cjs",
+      "require": "./dist/node-py.min.mjs"
     }
   },
   "type": "module",
