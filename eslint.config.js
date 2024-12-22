@@ -3,19 +3,16 @@ import globals from "globals";
 
 export default [
   {
-    files: [
-      "index.js",
-    ],
     languageOptions: {
       globals: {
+        ...globals.browser,
         ...globals.node,
-        // ...globals.browser,
       }
     },
     rules: {
       ...eslint.configs.recommended.rules,
       "no-unused-vars": "off",
-      "prefer-const": "off"
+      "prefer-const": "off",
     },
   },
 ];
